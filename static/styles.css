@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 0 50px;
+    background-color: #181c1e;
+    color: azure;
+  }
+  .pfp {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+  }
+  .container{
+    margin-top: 200px;
+  }
+  .container .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 50px;
+  }
